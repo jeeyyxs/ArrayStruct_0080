@@ -17,17 +17,18 @@ int main()
     orang mhs;
     //isi obyek
     cout << "Nama Mahasiswa:";
-    getline (cin >> mhs.nama);
+    getline(cin, mhs.nama);
     cout << "Alamat Desa:";
-    getline (cin >> mhs.Alamat.desa);
+    getline(cin, mhs.Alamat.desa);
     cout << "Alamat Kota:";
-    getline (cin >> mhs.Alamat.kota);
+    getline(cin, mhs.Alamat.kota);
     cout << "umur:";
-    getline (cin >> mhs.umur);
+    cin >> mhs.umur;
     cout << endl;
     //Menampilkan isi obyek
     cout << "Nama: "<< mhs.nama<<endl;
     cout << "Desa: "<< mhs.Alamat.desa<<endl;
     cout << "Kota: "<< mhs.Alamat.kota<<endl;
     cout << "Umur: "<< mhs.umur<<endl;
+    cout << endl;
 }
