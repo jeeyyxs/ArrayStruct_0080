@@ -23,7 +23,7 @@ int main()
     cout << "Alamat Kota:";
     getline (cin >> mhs.Alamat.kota);
     cout << "umur:";
-    cin >> mhs.umur;
+    getline (cin >> mhs.umur);
     cout << endl;
     //Menampilkan isi obyek
     cout << "Nama: "<< mhs.nama<<endl;
