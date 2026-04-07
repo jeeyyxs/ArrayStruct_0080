@@ -19,9 +19,9 @@ int main()
     cout << "Nama Mahasiswa:";
     getline (cin >> mhs.nama);
     cout << "Alamat Desa:";
-    cin >> mhs.Alamat.desa;
+    getline (cin >> mhs.Alamat.desa);
     cout << "Alamat Kota:";
-    cin >> mhs.Alamat.kota;
+    getline (cin >> mhs.Alamat.kota);
     cout << "umur:";
     cin >> mhs.umur;
     cout << endl;
