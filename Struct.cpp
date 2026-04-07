@@ -20,7 +20,7 @@ int main ()
     cin >> mhs.umur;
     cout << endl;
     //Menampilkan isi obyek
-    cout << "Nama: "mhs.nama<<endl;
-    cout << "Alamat: "mhs.alamat<<endl;
-    cout << "Umur: "mhs.umur<<endl;
+    cout << "Nama: "<< mhs.nama<<endl;
+    cout << "Alamat: "<< mhs.alamat<<endl;
+    cout << "Umur: "<< mhs.umur<<endl;
 }
